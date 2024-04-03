@@ -10,7 +10,7 @@ This is a teaching material aimed to demonstrate the peculiarities of testing di
 - Why virtual development/runtime environments are so important, and how to make one leveraging the standard Python 3+ and JavaScript toolset.
 
 # Architecture of Distributed Tests with Virtualized Services
-The main objective of service virtualization is to run tests in a manner that is opaque for a system under test (sut). In other words, a sut thinks that it is communicating with a real backend server. It is possible to check both the responses (verification of state changes) and the requests (verification of behavior). The latter is especially useful when you want to check if a sut is sending the correct commands to the backend server's API and/or stick to the protocol. The next figure[^2] illustrates the architecture of distributed tests with service virtualization and explains how mountebank responds to requests. 
+The main objective of service virtualization is to run tests in a manner that is opaque for a system under test (sut). In other words, a sut thinks that it is communicating with a real backend server. It is possible to check both the responses (verification of state changes) and the requests (verification of behavior). The latter is especially useful when you want to check if a sut is sending the correct commands to the backend server's API and/or stick to the protocol. The next figure illustrates the architecture of distributed tests with service virtualization and explains how mountebank responds to requests. 
 
 <kbd>![How Testing Services with mountebank Works](docs/mentalmodel-testing-microservices-with-mountebank2.png)</kbd>
 
