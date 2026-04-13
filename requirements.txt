@@ -1,3 +1,3 @@
-mbtest==2.15.0
+mbtest==2.15.1
 pytest==9.0.2
 python-dotenv==1.2.2
